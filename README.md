@@ -9,7 +9,7 @@ This project demonstrates basic form creation and structure using HTML.
 - Easy to open and use (just open `index.html` in a browser)
 
 ## Screenshot
-![Screenshot]([images/screenshot.png](https://github.com/Muzakidcodes/User-Feedback-Survey-Form/blob/main/images/Screenshot.png?raw=true)) <!-- optional, can add if you take a screenshot -->
+![Survey Form Screenshot](images/screenshot.png) <!-- optional, can add if you take a screenshot -->
 
 ## How to Use
 1. Clone or download this repository.
