@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Feedback Survey</title>
+</head>
+<body>
+    <!-- Page Title -->
+    <h1 id="title">User Feedback Survey</h1>
+
+    <!-- Description -->
+    <p id="description">We value your input! Please take a few minutes to fill out this survey and help us improve our services.</p>
+
+    <!-- Survey Form -->
+    <form id="survey-form">
+
+        <!-- Personal Information Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- Name Input -->
+            <label id="name-label" for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            <br><br>
+
+            <!-- Email Input -->
+            <label id="email-label" for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            <br><br>
+
+            <!-- Number Input -->
+            <label id="number-label" for="number">Age:</label><br>
+            <input type="number" id="number" name="age" placeholder="18" min="1" max="120">
+        </fieldset>
+
+        <br>
+
+        <!-- Preferences Section -->
+        <fieldset>
+            <legend>Your Preferences</legend>
+
+            <!-- Dropdown -->
+            <label for="dropdown">How did you hear about us?</label><br>
+            <select id="dropdown" name="source">
+                <option value="">Select an option</option>
+                <option value="friend">Friend</option>
+                <option value="social">Social Media</option>
+                <option value="search">Search Engine</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Overall Satisfaction:</label><br>
+            <input type="radio" id="radio1" name="satisfaction" value="very_satisfied">
+            <label for="radio1">Very Satisfied</label><br>
+            <input type="radio" id="radio2" name="satisfaction" value="satisfied">
+            <label for="radio2">Satisfied</label><br>
+            <input type="radio" id="radio3" name="satisfaction" value="neutral">
+            <label for="radio3">Neutral</label><br>
+            <input type="radio" id="radio4" name="satisfaction" value="dissatisfied">
+            <label for="radio4">Dissatisfied</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Features you use (select all that apply):</label><br>
+            <input type="checkbox" id="feature1" name="features" value="featureA">
+            <label for="feature1">Feature A</label><br>
+            <input type="checkbox" id="feature2" name="features" value="featureB">
+            <label for="feature2">Feature B</label><br>
+            <input type="checkbox" id="feature3" name="features" value="featureC">
+            <label for="feature3">Feature C</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Additional Comments Section -->
+        <fieldset>
+            <legend>Additional Feedback</legend>
+            <label for="comments">Comments or Suggestions:</label><br>
+            <textarea id="comments" name="comments" placeholder="Share any ideas or feedback here" rows="5" cols="40"></textarea>
+        </fieldset>
+
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submit">Submit Survey</button>
+
+    </form>
+</body>
+</html>
