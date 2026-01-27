@@ -9,7 +9,7 @@ This project demonstrates basic form creation and structure using HTML.
 - Easy to open and use (just open `index.html` in a browser)
 
 ## Screenshot
-![Survey Form Screenshot](screenshot.png) <!-- optional, can add if you take a screenshot -->
+![Survey Form Screenshot](images/screenshot.png) <!-- optional, can add if you take a screenshot -->
 
 ## How to Use
 1. Clone or download this repository.
